@@ -1,0 +1,61 @@
+body {
+  background-color: #FFFFFF;
+  background-image:url(inscription.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position: center; 
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+textT{
+  margin-right:5cm;
+  }
+h1, p {
+  color: #333;
+}
+
+.auto-style1 {
+  width: 25%;
+  border: 1px solid #0000FF;
+}
+
+.auto-style2 {
+  width: 400px;
+ }
+ 
+.auto-style3 {
+   width: 25%;
+   border: 1px solid #008080;
+}
+
+#name, #email, #number, #balance, #pin_code {
+  width: 155px;
+}
+
+#address {
+  width: 250px;
+}
+
+#birth_date {
+  width: 83px;
+}
+
+#gender {
+  width: 50px;
+}
+
+.btns {
+  width: 127px;
+}
+
+input {
+  display: block;
+  border: 1px solid #cccccc;
+}
+
+:required {
+  border-color: #1be032;
+  -webkit-box-shadow: 
+    0 0 5px rgba(57, 237, 78, .5);
+}
