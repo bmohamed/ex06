@@ -1,0 +1,26 @@
+ex06
+
+6/10
+
+(-1)
+import 'dart:json';
+->
+import 'dart:convert';
+
+(-1) setName ? (ok pour Java, nok pour Dart)
+
+Person(name,email, phone) {
+  this.name = name;
+  this.email = email;
+  this.phone = phone;
+}
+->
+Person(this.name, this.email, this.phone);
+
+(-1)
+Commencez avec une liste (ou un tableau) des contacts existants
+que l'utilisateur peut mettre à jour ou supprimer.
+
+(-1)
+window.alert("Bank account data stored in the browser.");
+Bank account ?
